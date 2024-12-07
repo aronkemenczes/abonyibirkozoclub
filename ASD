@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonyi Birkozó Club</title>
+
+    
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+
+
+    <header>
+        <div class="logo">
+            <h1>Abonyi Birkozó Club</h1>
+        </div>
+        <nav class="menu-bar">
+            <ul>
+                <li><a href="#home">Kezdőlap</a></li>
+                <li><a href="#about">Rólunk</a></li>
+                <li><a href="#events">Események</a></li>
+                <li><a href="#membership">Tagság</a></li>
+                <li><a href="index.html">Kapcsolat</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="hero">
+           <!--<p>Lépj be a birkózás világába, és legyél részese a csapatnak!</p>--> 
+            
+        </section>
+        
+            
+            
+        
+            
+
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Abonyi Birkozó Club. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+    
+
+</body>
+</html>

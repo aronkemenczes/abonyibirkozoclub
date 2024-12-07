@@ -1,0 +1,44 @@
+.about-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9; /* Világos háttér */
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Távolság a képek között */
+    margin-top: 20px;
+}
+
+.about-images img {
+    width: 200px; /* Képek mérete */
+    height: 150px; /* Képek magassága */
+    object-fit: cover; /* Kép illeszkedése */
+    border-radius: 8px; /* Lekerekített sarkok */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Árnyék */
+    transition: transform 0.3s ease; /* Animáció */
+}
+
+.about-images img:hover {
+    transform: scale(1.05); /* Kép nagyítása hoverre */
+}

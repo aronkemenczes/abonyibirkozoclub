@@ -1,0 +1,307 @@
+/* Általános stílusok */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f8ff, #e6e6fa);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(to right, #004aad, #005bb5);
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar li {
+    margin: 0 1rem;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.menu-bar a:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+}
+
+/* Hős szekció */
+.hero {
+    background: url(képek/abonyi_birkozo_club_banner_final.jpg) center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.cta-button {
+    background: #ffd700;
+    color: #004aad;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.cta-button:hover {
+    background: #e6b800;
+    transform: scale(1.1);
+}
+
+/* Információs szekciók */
+.info-section {
+    padding: 3rem 1rem;
+    text-align: center;
+    background: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.info-section:nth-child(even) {
+    background: #e6e6fa;
+}
+
+.info-section h2 {
+    font-size: 2rem;
+    color: #005bb5;
+}
+
+.info-section p {
+    font-size: 1.1rem;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Lábléc */
+footer {
+    background: #004aad;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #a41414;
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#events {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.event {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Középre igazítás */
+}
+
+.event h3 {
+    color: #007BFF;
+    margin-bottom: 10px; /* A cím és a szöveg közötti távolság */
+}
+
+.event p {
+    margin: 5px 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.left-side, .right-side {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.center {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-side img, .right-side img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.center img {
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #0044cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+/* Képek minimálisan kisebbek legyenek */
+.side-img {
+    width: 5%;
+    height: 100px;
+    object-fit: cover;
+    transform: scale(0.98); /* Csökkentjük a képet 98%-ra (2%-kal kisebb) */
+    transition: transform 0.3s ease-in-out; /* Simítjuk a változást */
+}
+
+
+
+
+/* Alap stílusok */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('background.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about, .events, .contact {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Reszponzív elrendezés */
+@media (min-width: 768px) {
+    .nav ul li {
+        margin: 0 20px;
+    }
+
+    .about, .events, .contact {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hero {
+        padding: 100px 20px;
+        font-size: 1.5rem;
+    }
+}
